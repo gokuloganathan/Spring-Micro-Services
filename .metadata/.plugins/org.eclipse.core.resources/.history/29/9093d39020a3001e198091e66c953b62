@@ -1,0 +1,6 @@
+package com.service.user.Configuration;
+
+
+public class UserServiceConfig {
+
+}

@@ -1,0 +1,30 @@
+package com.service.deptService.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.service.deptService.Repository.DeptRepository;
+import com.service.deptService.entity.Department;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+public class DeptServiceImpl implements DeptService{
+	@Autowired
+	private DeptRepository deptRepository;
+
+	@Override
+	public Department saveDepartment(Department department) {
+		return null;
+	}
+
+	@Override
+	public Department getDepartmentById(Long deptId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

@@ -1,0 +1,9 @@
+package com.service.deptService.Service;
+
+import com.service.deptService.entity.Department;
+
+public interface DepartmentService {
+	Department saveDepartment(Department department);
+	
+	Department getDepartmentById(Long deptId);
+}

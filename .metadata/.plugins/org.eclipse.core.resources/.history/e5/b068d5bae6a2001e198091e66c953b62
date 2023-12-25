@@ -1,0 +1,9 @@
+package com.service.deptService.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.service.deptService.entity.Department;
+
+public interface DeptRepository extends JpaRepository<Department, Long>{
+
+}

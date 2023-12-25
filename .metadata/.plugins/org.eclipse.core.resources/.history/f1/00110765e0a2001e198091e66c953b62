@@ -1,0 +1,14 @@
+package com.service.deptService.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Builder;
+import lombok.Data;
+
+@Entity
+@Table(name = "departments")
+@Builder
+@Data
+public class Department {
+
+}

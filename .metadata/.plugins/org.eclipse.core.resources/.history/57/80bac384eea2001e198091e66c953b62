@@ -1,0 +1,20 @@
+package com.service.user.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.service.user.Repository.UserRepository;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class UserServiceImpl {
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+}

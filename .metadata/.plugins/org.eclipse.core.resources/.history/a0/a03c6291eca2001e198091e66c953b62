@@ -1,0 +1,7 @@
+package com.service.user.Service;
+
+public interface UserService {
+	User saveUser(User user);
+
+    ResponseDto getUser(Long userId);
+}
